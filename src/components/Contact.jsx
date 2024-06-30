@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <section id="contact" className="w-full py-12 bg-gray-200">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-semibold text-center mb-12 text-[#00FF00]">
+        <h2 className="text-4xl font-semibold text-center mb-12 text-[#74DF00]">
           Contact Us
         </h2>
         <div className="flex flex-col md:flex-row gap-12">
@@ -24,7 +24,7 @@ const Contact = () => {
                 <input
                   type="text"
                   id="name"
-                  className="py-3 px-4 border border-gray-300 rounded-md focus:outline-none focus:border-[#00FF00]"
+                  className="py-3 px-4 border border-gray-300 rounded-md focus:outline-none focus:border-[#74DF00]"
                   placeholder="Your Name"
                 />
               </div>
@@ -35,7 +35,7 @@ const Contact = () => {
                 <input
                   type="email"
                   id="email"
-                  className="py-3 px-4 border border-gray-300 rounded-md focus:outline-none focus:border-[#00FF00]"
+                  className="py-3 px-4 border border-gray-300 rounded-md focus:outline-none focus:border-[#74DF00]"
                   placeholder="Your Email"
                 />
               </div>
@@ -45,14 +45,14 @@ const Contact = () => {
                 </label>
                 <textarea
                   id="message"
-                  className="py-3 px-4 border border-gray-300 rounded-md focus:outline-none focus:border-[#00FF00]"
+                  className="py-3 px-4 border border-gray-300 rounded-md focus:outline-none focus:border-[#74DF00]"
                   placeholder="Your Message"
                   rows="5"
                 ></textarea>
               </div>
               <button
                 type="submit"
-                className="w-full py-3 px-4 bg-[#00FF00] text-white font-semibold rounded-md hover:bg-green-600 transition-colors duration-300"
+                className="w-full py-3 px-4 bg-[#74DF00] text-white font-semibold rounded-md hover:bg-green-500 transition-colors duration-300"
               >
                 Send Message
               </button>
@@ -66,15 +66,15 @@ const Contact = () => {
             </p>
             <ul className="space-y-4">
               <li className="flex items-center">
-                <FaPhoneAlt className="text-[#00FF00] mr-3" />
+                <FaPhoneAlt className="text-[#74DF00] mr-3" />
                 <span className="text-gray-600">+1 (555) 123-4567</span>
               </li>
               <li className="flex items-center">
-                <FaEnvelope className="text-[#00FF00] mr-3" />
+                <FaEnvelope className="text-[#74DF00] mr-3" />
                 <span className="text-gray-600">info@gdiet.com</span>
               </li>
               <li className="flex items-center">
-                <FaMapMarkerAlt className="text-[#00FF00] mr-3" />
+                <FaMapMarkerAlt className="text-[#74DF00] mr-3" />
                 <span className="text-gray-600">
                   123 Healthy Way, Fitness City, USA
                 </span>

@@ -43,7 +43,7 @@ const TestimonialList = ({ testimonials }) => {
   return (
     <section id="testimonials" className="w-full bg-gray-100 py-12">
       <div className="container mx-auto flex flex-col justify-center items-center">
-        <h2 className="text-4xl font-semibold mb-12 text-[#00FF00]">
+        <h2 className="text-4xl font-semibold mb-12 text-[#74DF00]">
           Testimonials
         </h2>
         <div className="w-full">

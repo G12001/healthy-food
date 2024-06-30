@@ -42,7 +42,7 @@ const ProductList = ({ products }) => {
   return (
     <section id="products" className="w-full py-12">
       <div className="container mx-auto flex flex-col justify-center items-center">
-        <h2 className="text-4xl font-semibold mb-12 text-[#00FF00]">
+        <h2 className="text-4xl font-semibold mb-12 text-[#74DF00]">
           Our Products
         </h2>
         <div className="w-full">

@@ -19,7 +19,7 @@
 
 .slick-prev,
 .slick-next {
-    background-color: #00FF00;
+    background-color: #74DF00;
     /* Adjust the color as needed */
     border-radius: 50%;
     width: 40px;
@@ -82,7 +82,7 @@
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #00FF00;
+    background-color: #74DF00;
     color: white;
     border: none;
     border-radius: 50%;
@@ -167,7 +167,7 @@ form textarea {
 }
 
 form button {
-    background-color: #00ff00;
+    background-color: #74DF00;
     color: white;
     transition: background-color 0.3s ease;
 }

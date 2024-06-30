@@ -1,4 +1,4 @@
-import heroimg from "../assets/hero-img3.png";
+import heroimg from "../assets/hero-img4.png";
 import { FaArrowRight } from "react-icons/fa";
 
 const Hero = () => {
@@ -18,7 +18,7 @@ const Hero = () => {
           </p>
           <a
             href="#products"
-            className="text-white bg-[#74DF00] py-3 px-8 rounded-md flex items-center justify-center gap-2 hover:bg-green-600 transition-colors duration-300"
+            className="text-white bg-[#74DF00] py-3 px-8 rounded-md flex items-center justify-center gap-2 hover:bg-green-500 transition-colors duration-300"
           >
             Explore Now <FaArrowRight className="text-xl" />
           </a>

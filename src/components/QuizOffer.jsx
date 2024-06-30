@@ -97,7 +97,7 @@ const QuizOffer = () => {
             </div>
             <button
               onClick={handleModalClose}
-              className="mt-6 bg-[#74DF00] text-white py-2 px-4 rounded-md hover:bg-green-600 transition-colors duration-300"
+              className="mt-6 bg-[#74DF00] text-white py-2 px-4 rounded-md hover:bg-green-500 transition-colors duration-300"
             >
               Close
             </button>
