@@ -41,7 +41,7 @@ const TestimonialList = ({ testimonials }) => {
   };
 
   return (
-    <section id="testimonials" className="w-full py-12">
+    <section id="testimonials" className="w-full bg-gray-100 py-12">
       <div className="container mx-auto flex flex-col justify-center items-center">
         <h2 className="text-4xl font-semibold mb-12 text-[#00FF00]">
           Testimonials

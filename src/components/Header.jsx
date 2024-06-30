@@ -1,5 +1,5 @@
 import { useState } from "react";
-import brandLogo from "../assets/brand-logo.jpeg";
+import brandLogo from "../assets/brand-logo2.png";
 import { IoMenu } from "react-icons/io5";
 import Sidebar from "./Sidebar";
 
@@ -15,7 +15,7 @@ const Header = () => {
             className="h-12 w-12 rounded-md"
             alt="brand logo"
           />
-          <span className="ml-2 text-xl font-bold">Your Brand</span>
+          <span className="ml-2 text-xl font-bold">G - DIET</span>
         </a>
 
         {/* Desktop Menu */}
@@ -43,7 +43,7 @@ const Header = () => {
 const NavLink = ({ href, children }) => (
   <a
     href={href}
-    className="font-semibold text-gray-800 hover:text-[#00FF00] transition-colors duration-300"
+    className="font-semibold text-gray-800 hover:text-[#74DF00] transition-colors duration-300"
   >
     {children}
   </a>

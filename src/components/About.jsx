@@ -3,15 +3,15 @@ import { FaQuoteLeft } from "react-icons/fa";
 
 const About = () => {
   return (
-    <section id="about" className="w-full py-12 bg-gray-100">
+    <section id="about" className="w-full py-12">
       <div className="container mx-auto px-6 md:px-12">
-        <h2 className="text-4xl font-semibold mb-8 text-[#00FF00] text-center">
+        <h2 className="text-4xl font-semibold mb-8 text-[#74DF00] text-center">
           About Us
         </h2>
         <div className="flex flex-col md:flex-row md:gap-x-12 items-center">
           <div className="flex-1">
             <div className="text-gray-800 text-lg md:text-xl leading-relaxed">
-              <FaQuoteLeft className="text-4xl text-[#00FF00] mb-4 mx-auto md:mx-0" />
+              <FaQuoteLeft className="text-4xl text-[#74DF00] mb-4 mx-auto md:mx-0" />
               A lot of junk food is decaying our healthy soul and due to
               unhealthiness many people were feeling lonely in healthy cravings.
               Due to which the real person inside them is not getting enough

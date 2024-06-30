@@ -5,6 +5,9 @@ import ProductList from "./components/ProductList";
 import About from "./components/About";
 import TestimonialList from "./components/TestimonialList";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
+import QuizOffer from "./components/QuizOffer";
+import Contact from "./components/Contact";
 
 const App = () => {
   const products = [
@@ -170,12 +173,15 @@ const App = () => {
   ];
 
   return (
-    <div>
+    <div className="">
       <Header />
       <HeroSection />
-      <ProductList products={products} />
       <About />
+      <QuizOffer />
+      <ProductList products={products} />
       <TestimonialList testimonials={testimonials} />
+      <Contact />
+      <ScrollToTop />
       <Footer />
     </div>
   );
